@@ -34,9 +34,28 @@ namespace Rocky.Controllers
         [ValidateAntiForgeryToken]//Токен безопасности
         public IActionResult Create(Category obj)
         {
-            _db.Category.Add(obj);
-            _db.SaveChanges();//Реальная передача в базу данных
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _db.Category.Add(obj);
+                _db.SaveChanges();//Реальная передача в базу данных
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+        }
+
+        //GET - EDIT
+        public IActionResult Edit(int? id)
+        {
+            if(id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var obj = _db.Category.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
         }
     }
 }

@@ -844,3 +844,6 @@ D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Rocky.c
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Rocky.dll
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Rocky.pdb
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Rocky.genruntimeconfig.cache
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\ModelHomeWork\Index.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\ModelHomeWork\Create.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Category\Edit.cshtml.g.cs
