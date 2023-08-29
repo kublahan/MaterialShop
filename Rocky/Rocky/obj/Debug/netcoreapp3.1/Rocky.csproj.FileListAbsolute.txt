@@ -847,3 +847,8 @@ D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Rocky.g
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\ModelHomeWork\Index.cshtml.g.cs
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\ModelHomeWork\Create.cshtml.g.cs
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Category\Edit.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Category\Delete.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\ModelHomeWork\Edit.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\ModelHomeWork\Delete.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Product\Upsert.cshtml.g.cs

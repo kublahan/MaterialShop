@@ -12,5 +12,6 @@ namespace Rocky.Data
 
         public DbSet<Category> Category { get; set; }
         public DbSet<ModelHomeWork> ModelHomeWork { get; set; }
+        public DbSet<Product> Product { get; set; }
     }
 }
