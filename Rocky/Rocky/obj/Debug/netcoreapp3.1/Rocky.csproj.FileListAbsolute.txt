@@ -853,3 +853,5 @@ D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\V
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Product\Upsert.cshtml.g.cs
 D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Product\Delete.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_IndividualProductCard.cshtml.g.cs
+D:\Programming\Projects\MaterialShop\Rocky\Rocky\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
