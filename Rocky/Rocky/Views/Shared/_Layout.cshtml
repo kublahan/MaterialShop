@@ -30,23 +30,27 @@
 
 
                     <ul class="navbar-nav flex-grow-1">
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="dropdown">
-                            <button class="nav-link dropdown-toggle btn" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Content Management
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Category</a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="ModelHomeWork" asp-action="Index">ModelHomeWork</a>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Product</a>
-                                <div class="dropdown-divider"></div>@*разделитель*@
-                                <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Create Admin User</a>
+                        @if (User.IsInRole(WC.AdminRole))
+                        {
 
-                            </div>
-                        </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <button class="nav-link dropdown-toggle btn" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Content Management
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Category</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="ModelHomeWork" asp-action="Index">ModelHomeWork</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Product</a>
+                                    <div class="dropdown-divider"></div>@*разделитель*@
+                                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Create Admin User</a>
+
+                                </div>
+                            </li>
+                        }
                         <li>
                             @if(HttpContextAccessor.HttpContext.Session.Get<List<ShoppingCart>>(WC.SessionCart)!=null)
                             {

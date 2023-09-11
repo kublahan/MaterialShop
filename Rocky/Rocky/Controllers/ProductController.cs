@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +16,7 @@ using System.Runtime.InteropServices;
 
 namespace Rocky.Controllers
 {
+    [Authorize(Roles = WC.AdminRole)]
     public class ProductController : Controller
     {
         private readonly ApplicationDbContext _db;
